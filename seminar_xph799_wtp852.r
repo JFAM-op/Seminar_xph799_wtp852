@@ -3,7 +3,7 @@
 # Data  : Hourly SpotPriceDKK 
 # Model : Markov-Switching GARCH  (MSGARCH package, Ardia et al.)
 # =============================================================================
-
+# Please do keep in mind, that you need to change the paths for output_dir and read_excel (line 240-260)
 # ── 0. LIBRARIES ──────────────────────────────────────────────────────────────
 if (!require(readxl,  quietly = TRUE)) install.packages("readxl")
 if (!require(MSGARCH, quietly = TRUE)) install.packages("MSGARCH")
